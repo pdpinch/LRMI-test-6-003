@@ -16,7 +16,7 @@
 <link href="http://ocw.mit.edu/xml/ocwcc.rdf" type="application/rdf+xml" rel="metadata">
 <script type="text/javascript" src="../common/scripts/common-utils-offline.js"></script><script type="text/javascript" src="../common/scripts/jquery.bubblepopup.min.js"></script><script type="text/javascript" src="../common/scripts/bubble-popup-offline.js"></script>
 </head>
-<body id="home">
+<body id="home" itemscope itemtype="http://schema.org/WebPage">
         <a href="#main" class="skip" tabindex="-1">skip to content</a> <a id="top"></a>
         <div id="container">
             
@@ -191,7 +191,7 @@ function changeAlt(id)
 <div class="get_started">
 	<div class="leftNavSubhead">Archived Versions</div>
 	<ul>
-<li><a href="http://hdl.handle.net/1721.1/60965" title="Fall 2003">Fall 2003</a></li>
+<li><a itemProp="isBasedOnURL" href="http://hdl.handle.net/1721.1/60965" title="Fall 2003">Fall 2003</a></li>
 	</ul>
 </div>
 
@@ -249,9 +249,8 @@ function changeAlt(id)
         </div>
         <div id="main_content">
             <div id="courses">
-                <h1>Signals and Systems</h1>
-                <h3 class="chpTermInfo">
-<span style="font-weight:bold">As taught in: </span>Spring 2010</h3>
+                <h1 itemprop="name">Signals and Systems</h1>
+                <h3 class="chpTermInfo"><span style="font-weight:bold">As taught in: </span><span itemProp="datePublished" content="2011-11-25">Spring 2010</span></h3>
                 <div class="maincontent">
                     <div class="course1">
                         
@@ -267,7 +266,7 @@ function changeAlt(id)
                             <div class="mainContentTopLeftArea">
                                 <span id="chp_image_area" title="">
                                     <a id="chp_image_hyperLink">
-                                        <img id="chp_image" border="0" alt="Course logo for 6.003. Signals and Systems: modeling, analysis, design." src="../contents/6-003s10.jpg" title="Course logo for 6.003. Signals and Systems: modeling, analysis, design."></a>
+                                        <img id="chp_image" itemprop="image" border="0" alt="Course logo for 6.003. Signals and Systems: modeling, analysis, design." src="../contents/6-003s10.jpg" title="Course logo for 6.003. Signals and Systems: modeling, analysis, design."></a>
                                 </span>
                                 <div id="Htmlplaceholdercontrol1" class="image-caption">
                                     
@@ -285,7 +284,7 @@ function changeAlt(id)
 	                                    <h3>Instructors:</h3>
 	                                    <div class="chpstaff" style="padding-bottom: 10px;">
 	                                        <div id="Htmlplaceholder2" style="">
-	                                            <p>Prof. Dennis Freeman</p>
+	                                            <p itemscope itemtype="http://schema.org/Person" itemprop="author">Prof. Dennis Freeman</p>
 	                                        </div>
 	                                    </div>
                                     
@@ -295,10 +294,15 @@ function changeAlt(id)
                                     
                                     <h3 style="padding-top: 10px;">Level:</h3>
                                     <div class="chpcourselevel">
-                                        <span id="lblLevel">Undergraduate</span>
+                                        <span id="lblLevel" itemprop="typicalAgeRange" content="18-21">Undergraduate</span>
                                     </div>
                                 </div>
                                 
+                <meta itemprop="interactivityType" content="expositive">
+                <meta itemprop="educationalUse" content="course">
+				<meta itemprop="learningResourcetype" content="course">
+                <meta itemprop="intendedEndUserRole" content="teacher">
+                <meta itemprop="intendedEndUserRole" content="student">
                                 
 									
                             </div>
@@ -318,9 +322,15 @@ function changeAlt(id)
                             <div id="Description" class="coursedescription">
                                 
         <div class="" id="parent-fieldname-description">
-            <p>6.003 covers the fundamentals of signal and system analysis, focusing on representations of discrete-time and continuous-time signals (singularity functions, complex exponentials and geometrics, Fourier representations, Laplace and Z transforms, sampling) and representations of linear, time-invariant systems (difference and differential equations, block diagrams, system functions, poles and zeros, convolution, impulse and step responses, frequency responses). Applications are drawn broadly from engineering and physics, including feedback and control, communications, and signal processing.</p>
+            <p itemprop="description">6.003 covers the fundamentals of signal and system analysis, focusing on representations of discrete-time and continuous-time signals (singularity functions, complex exponentials and geometrics, Fourier representations, Laplace and Z transforms, sampling) and representations of linear, time-invariant systems (difference and differential equations, block diagrams, system functions, poles and zeros, convolution, impulse and step responses, frequency responses). Applications are drawn broadly from engineering and physics, including feedback and control, communications, and signal processing.</p>
             
         </div>
+     
+<h4 class="subhead">Course Meeting Times</h2>
+<p itemprop="timeRequired" content="R24/P1H">Lectures: 2 sessions / week, 1 hour / session</p>
+<p itemprop="timeRequired" content="R24/P1H">Recitations: 2 sessions / week, 1 hour / session</p>
+
+
      
                             </div>
                             
@@ -386,30 +396,48 @@ GA_googleAddAttr("YEAR","10");
                 
 <div id="portletwrapper-6f63772e626f74746f6d706f72746c65746d616e616765720a636f6e746578740a2f506c6f6e650a736974652d666f6f746572" class="portletWrapper kssattr-portlethash-6f63772e626f74746f6d706f72746c65746d616e616765720a636f6e746578740a2f506c6f6e650a736974652d666f6f746572">
 <div class="portletStaticText portlet-static-site-footer"><div class="footer">
+
 <div class="footer_logo">
+
 <a href="http://web.mit.edu"> 
+
 <img width="65" height="35" align="top" title="MIT Logo" src="../common/images/trans.gif" alt="MIT Logo"></a>  
+
 <a href="../common/terms/index.htm"> 
+
 <img width="100" height="13" align="top" title="Copyright MIT" src="../common/images/trans.gif" alt="Copyright MIT"></a>
 </div>
+
 <div class="footer_links">
+
 <ul>
 <li class="first">
 <a href="http://ocw.mit.edu/about/rss/">
+
 <img width="32" height="15" align="absbottom" src="../common/images/footer_rss_new.gif" alt="RSS Feeds"></a> 
+
 <a href="http://ocw.mit.edu/about/rss/">RSS Feeds</a>
 </li>
+
     <li><a href="../common/terms/index.htm">Privacy and Terms of Use</a></li>
+
     <li><a href="http://ocw.mit.edu/help/site-map/">Site Map</a></li>
+
     <li><a href="http://ocw.mit.edu/help/faq-cite-ocw-content/">Cite OCW Content</a></li>
+
 </ul>
 <p>Your use of the MIT OpenCourseWare site and course materials is subject to our Creative Commons License and other terms  of use.</p>
+
 <!-- end footer links -->
 </div>
+
 <div class="license">
+
 <a class="first" href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/" rel="license" target="_blank"><img width="80" height="15" src="../common/images/cc_logo_new.gif" alt="Creative Commons - some rights reserved"></a><br><a class="first" href="http://www.ocwconsortium.org/" target="_blank">
+
 <img width="80" height="44" src="../common/images/ocw-logo_new.gif" alt="OCW Consortium"></a>
 </div>
+
 </div></div>
 
 </div>
